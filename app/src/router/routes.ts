@@ -351,6 +351,20 @@ const routes: RouteRecordRaw[] = [
   },
 
   /* ────────────╮
+   │ SSH  │
+   ╰──────────── */
+  {
+  name: 'tool-ssh',
+  path: '/tools/ssh',
+  component: () => import('@/views/tools/ToolsSshSettings.vue'),
+  meta: {
+    args: { trad: 'tools_ssh' },
+    breadcrumb: ['tool-list', 'tool-ssh'],
+    skeleton: 'CardFormSkeleton',
+  },
+},
+
+  /* ────────────╮
    │  DIAGNOSIS  │
    ╰──────────── */
   {
