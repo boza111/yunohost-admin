@@ -20,6 +20,7 @@ import {
 import { formatAdress, formatForm, sizeToM } from '@/helpers/yunohostArguments'
 import type { UserDetails } from '@/types/core/data'
 import type { FieldProps, FormFieldDict } from '@/types/form'
+import UserSshKeys from '@/views/user/UserSshKeys.vue'
 
 const props = defineProps<{
   name: string
