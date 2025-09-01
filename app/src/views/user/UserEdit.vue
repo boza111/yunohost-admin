@@ -257,6 +257,8 @@ const onUserEdit = onSubmit(async (onError, serverErrors) => {
           :validation="v.form.mail_forward"
         />
       </template>
+      <!-- SSH Keys Section -->
+      <UserSshKeys :user="user" />
     </CardForm>
   </div>
 </template>
