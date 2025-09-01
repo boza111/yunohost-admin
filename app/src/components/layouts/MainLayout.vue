@@ -36,6 +36,7 @@ const quickAddItems: CustomRoute[] = [
   { text: t('domain_add'), to: { name: 'domain-add' } },
   { text: t('group_add'), to: { name: 'group-create' } },
   { text: t('install_app'), to: { name: 'app-catalog' } },
+  { text: t('tools_ssh'), to: { name: 'tool-ssh' } },
 ]
 
 const skeletons = computed<Skeleton[]>(() => {
